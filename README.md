@@ -1,15 +1,9 @@
 # rock_paper_scissors
-**/ An interactive game of Rock Paper Scissors using computer vision and deep learning. /**
 
-I grew up in the 90's. One of my first game experience was with the Master System II and a little game that came pre-installed. Alex Kidd was afraid of nothing. Except rock, paper and scissors.   
-
-Technology is amazing. While I reminisce hours of games played on a TV that weighted probably more than me, new kids are playing in virtual worlds, without cables. Let's meet in the middle.   
-
-The program I created uses computer vision and deep learning to play a game of rock paper scissors in a live video stream (in this case from a webcam). Sounds impressive… It's not. In fact, it is really simple!
 
 ## The workflow   
 
-What do you need to play this game? A hand. And that's it. The program simply needs to recognize the gesture from the hand, compare it against the opponent and output the result (win, loss, draw). 
+
 
 ### 1/ Identifying the hand   
 
@@ -42,15 +36,3 @@ Because nobody wanted to play with me, I simulated an opponent.
 5/ output the image and result information.   
 
 
-## How can it be improved?
-If that game doesn't get me a job as a developer at Blizzard, I dont know what will! But if I wanted to spend more time and really improve it, I would:   
-
-1/ use a hand tracking system to remove the need of a preset region of interest;   
-
-2/ improve the deep learning model (design, but also training data, including additional hand gestures);   
-
-3/ improve the opponent (either by creating a reinforcement learning agent or by creating more logic like "if player played two X in a row, play Y" - the best strategy is to play randomly, but it is more exciting to build an opponent that seemingly has a strategy that you try to guess);   
-
-4/ improve the graphics and effects of the play screen (count down for each new game, celebratory confetti when winning etc.);    
-
-5/ other ideas you have!
